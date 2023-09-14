@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 2px solid black;
+  align-items: stretch;
+  padding: 15px;
+  
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input {
+  width: 150px;
+  border: 1px solid gray;
+  margin-top: 5px;
+  outline: none;
+}
+
+.input:focus{
+  
+  border :2px solid blue;
+  
+}
+
+.formButton{
+  cursor: pointer;
+  width: 100px;
+  margin-top: 10px;
+  
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.formButton:hover {
+  background-color: blue;
+}

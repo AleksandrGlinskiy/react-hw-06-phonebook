@@ -1,0 +1,18 @@
+.item{
+  margin-top: 10px;
+}
+
+.nameNumber {
+  margin-right: 10px;
+}
+
+.classListButton{
+  cursor: pointer;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.classListButton:hover {
+  background-color: blue;
+}
