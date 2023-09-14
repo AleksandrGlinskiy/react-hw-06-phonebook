@@ -4,6 +4,9 @@ import { Filter } from './Filter/Filter';
 
 import { ContactForm } from './Form/ContactForm';
 export function App() {
+
+
+  
   const [contacts, setContacts] = useState(() => {
     return JSON.parse(window.localStorage.getItem('contacts')) ?? [];
   });
